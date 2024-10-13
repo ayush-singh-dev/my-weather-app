@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("../src/components/images/cornelia-munteanu-15fYXqIb7Kc-unsplash\(1\).jpg");
+background-size: cover;
+
 }
 
 code {

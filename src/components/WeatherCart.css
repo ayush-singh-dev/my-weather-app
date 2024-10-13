@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Main-box {
+  box-sizing: border-box;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(100%);
+}
+
+.Main-box .name {
+  font-size: 45px;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.Main-box .country {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: cursive;
+}
+
+
+
+.Box-1 {
+  /* 
+  
+    */
+  background-image: url(../components/images/background1.jpg);
+  background-image: blur(5px);
+  background-size: cover;
+  border: 2px solid black;
+  width: 25em;
+  flex-direction: column;
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.Box-1 .Date {
+  font-weight: 700;
+  width: 7em;
+  font-size: 1.3em;
+  margin-bottom: 8px;
+  font-family: cursive;
+}
+.Box-1 .temp-icon {
+  display: flex;
+}
+
+.Box-1 .temp-icon .icon {
+  margin-top: 22px;
+}
+
+.Box-1 .temperature {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.Location {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Box1-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.date {
+  color: red;
+}
+
+.Box-2 {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(100%);
+  border: 2px solid;
+  background: black;
+  padding: 20px;
+  width: 18em;
+  display: flex;
+  flex-direction: column;
+}
+
+.Search-Box {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+
+.Search {
+  /* border: none; */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 6px;
+  position: relative;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border: none;
+  position: absolute;
+  margin-right: 9px;
+  margin-top: 6px;
+}
+
+.Box-2 .image {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Box-2 .weatherState {
+  height: 6.8em;
+  margin-left: 1.1em;
+  font-family: cursive;
+}
+
+.Box-2 .weather-mood {
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 0.8em;
+  letter-spacing: 3px;
+  font-family: cursive;
+}
+
+.Box-2 .Details .peragraph {
+  font-size: 18px;
+  font-weight: 450;
+  color: white;
+  font-family: cursive;
+}
+
+.Box-2 .Details .style {
+  display: flex;
+}
+
+.Box-2 .Details .hr {
+  width: 75%;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  border-color: white;
+}
+
+.span {
+  color: azure;
+}
+
+/* media query */
+
+@media only screen and (max-width: 800px) {
+  .Main-box {
+   width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 758px) {
+
+  .Box-1 .Date {
+    font-weight: 700;
+    font-size: 1.1em;
+    font-family: cursive;
+  }
+  .Box-1 .temperature {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: cursive;
+  }
+  .Box-2 .Details .peragraph {
+    font-size: 17px;
+  }
+  .Box-2 .Details .hr {
+    width: 82%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    border-color: white;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .Box-1 .Date {
+    margin-bottom: auto;
+    font-weight: 700;
+    font-size: 1.0em;
+    font-family: cursive;
+  }
+  .Box-1 .temperature {
+    font-size: 31px;
+    font-weight: 600;
+    font-family: cursive;
+  }
+
+  .Box-2 .Details .peragraph {
+    font-size: 16px;
+  }
+  .Box-2 .Details .hr {
+    width: 92%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    border-color: white;
+  }
+
+}
+
+@media only screen and (max-width: 526px) {
+  .Box-1 .Date {
+    margin-bottom: auto;
+    font-weight: 700;
+    font-size: 0.9em;
+    font-family: cursive;
+  }
+  .Box-1 .temperature {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: cursive;
+  }
+}
+
+@media only screen and (max-width: 504px) {
+  .Box-1 .Date {
+    margin-bottom: auto;
+    font-weight: 700;
+    font-size: 0.8em;
+    font-family: cursive;
+  }
+}
