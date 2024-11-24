@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/https//ayush-singh-dev.github.io/my-weather-app/static/css/main.c1768429.css",
-    "main.js": "/https//ayush-singh-dev.github.io/my-weather-app/static/js/main.64f3e2b2.js",
-    "static/js/787.d9312eb8.chunk.js": "/https//ayush-singh-dev.github.io/my-weather-app/static/js/787.d9312eb8.chunk.js",
-    "static/media/cornelia-munteanu-15fYXqIb7Kc-unsplash(1).jpg": "/https//ayush-singh-dev.github.io/my-weather-app/static/media/cornelia-munteanu-15fYXqIb7Kc-unsplash(1).06241a10138831c30cba.jpg",
-    "static/media/background1.jpg": "/https//ayush-singh-dev.github.io/my-weather-app/static/media/background1.8a4fb043753f94dfd7e5.jpg",
-    "index.html": "/https//ayush-singh-dev.github.io/my-weather-app/index.html",
-    "main.c1768429.css.map": "/https//ayush-singh-dev.github.io/my-weather-app/static/css/main.c1768429.css.map",
-    "main.64f3e2b2.js.map": "/https//ayush-singh-dev.github.io/my-weather-app/static/js/main.64f3e2b2.js.map",
-    "787.d9312eb8.chunk.js.map": "/https//ayush-singh-dev.github.io/my-weather-app/static/js/787.d9312eb8.chunk.js.map"
+    "main.css": "/my-weather-app/static/css/main.f1ce854f.css",
+    "main.js": "/my-weather-app/static/js/main.85ea78ba.js",
+    "static/js/787.d9312eb8.chunk.js": "/my-weather-app/static/js/787.d9312eb8.chunk.js",
+    "static/media/cornelia-munteanu-15fYXqIb7Kc-unsplash(1).jpg": "/my-weather-app/static/media/cornelia-munteanu-15fYXqIb7Kc-unsplash(1).06241a10138831c30cba.jpg",
+    "static/media/background1.jpg": "/my-weather-app/static/media/background1.8a4fb043753f94dfd7e5.jpg",
+    "index.html": "/my-weather-app/index.html",
+    "main.f1ce854f.css.map": "/my-weather-app/static/css/main.f1ce854f.css.map",
+    "main.85ea78ba.js.map": "/my-weather-app/static/js/main.85ea78ba.js.map",
+    "787.d9312eb8.chunk.js.map": "/my-weather-app/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1768429.css",
-    "static/js/main.64f3e2b2.js"
+    "static/css/main.f1ce854f.css",
+    "static/js/main.85ea78ba.js"
   ]
 }
