@@ -23,8 +23,6 @@
   font-family: cursive;
 }
 
-
-
 .Box-1 {
   /* 
   
@@ -160,12 +158,11 @@
 
 @media only screen and (max-width: 800px) {
   .Main-box {
-   width: 90vw;
+    width: 90vw;
   }
 }
 
 @media only screen and (max-width: 758px) {
-
   .Box-1 .Date {
     font-weight: 700;
     font-size: 1.1em;
@@ -191,7 +188,7 @@
   .Box-1 .Date {
     margin-bottom: auto;
     font-weight: 700;
-    font-size: 1.0em;
+    font-size: 1em;
     font-family: cursive;
   }
   .Box-1 .temperature {
@@ -209,7 +206,6 @@
     margin-bottom: 3px;
     border-color: white;
   }
-
 }
 
 @media only screen and (max-width: 526px) {
